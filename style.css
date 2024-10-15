@@ -31,7 +31,7 @@
     width: 150%;
     height: 150%;
     position: fixed;
-    background: url(grain.svg);
+    background: url(assets/grain.svg);
     opacity: 50%;
     margin-top: -3rem;
     margin-left: -6rem;
