@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 html{
     scroll-behavior: smooth;
 }
 
+=======
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
 .anton-regular {
     font-family: "Anton", sans-serif;
     font-weight: 400;
@@ -19,14 +22,22 @@ html{
 }
 
 ::-webkit-scrollbar-track{
+<<<<<<< HEAD
     background: rgba(42, 42, 42, 1);
+=======
+    background: #2a2a2a;
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
     border-radius: 5rem;
     margin-block: 1rem;
 
 }
 
 ::-webkit-scrollbar-thumb{
+<<<<<<< HEAD
     background: rgba(188, 83, 3, 1);
+=======
+    background: #BC5303;
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
     border-radius: 5rem;
     
 }
@@ -40,12 +51,20 @@ html{
     margin-top: -3rem;
     margin-left: -6rem;
     overflow: hidden;
+<<<<<<< HEAD
     pointer-events: none;  
     z-index: 999;
 }
 
 body{
     background-color: rgba(22, 22, 22, 1);
+=======
+    pointer-events: none;    
+}
+
+body{
+    background-color: #161616;
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
     padding-left: 5rem;
     padding-right: 5rem;
     padding-top: 2rem;
@@ -70,7 +89,11 @@ body{
     margin: 1rem;
     font-size: 0.75rem;
     font-family: "Armata";
+<<<<<<< HEAD
     color: rgba(161, 154, 139, 1);
+=======
+    color: #A19A8B;
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
     text-decoration: none;
     z-index: 1;
 }
@@ -85,7 +108,11 @@ body{
 
 .flowsource{
     font-family: 'Anton';
+<<<<<<< HEAD
     color: rgba(161, 154, 139, 1);
+=======
+    color: #A19A8B;
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
     font-size: 16rem;
     margin: 0;
     text-align: center;
@@ -102,7 +129,11 @@ body{
     gap: 1rem;
     font-family: 'Anton';
     font-size: 4rem;
+<<<<<<< HEAD
     color: rgba(161, 154, 139, 1);
+=======
+    color: #A19A8B;
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
     text-align: center;
     margin-top: -4rem;
     align-items: center;
@@ -138,6 +169,7 @@ body{
     transform: translateY(-6rem);
 }
 
+<<<<<<< HEAD
 .text2{
     color: rgba(188, 83, 3, 1);
     text-decoration: underline rgba(188, 83, 3, 1);
@@ -217,3 +249,9 @@ body{
     gap: 3rem;
     flex-wrap: wrap;
 }
+=======
+.resources{
+    display: flexbox;
+
+}
+>>>>>>> a4969b1387490d15becb5a89c87e972a3f37d7e2
