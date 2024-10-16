@@ -124,7 +124,6 @@ body{
 
 .text-container{
     transition: 250ms ease;
-    text-decoration: underline;
 }
 
 .text{
@@ -140,18 +139,12 @@ body{
 
 .text2{
     color: rgba(188, 83, 3, 1);
-    text-decoration: underline rgba(188, 83, 3, 1);
-}
-
-.down_arrow{
-    margin-bottom: 5rem;
 }
 
 #main{
     display: flex;
     gap: 5rem;
     justify-content: center;
-    margin-left: 3rem;
     padding-top: 5rem;
 }
 
@@ -161,7 +154,7 @@ body{
 
 .navbar{
     width: 15rem;
-    max-height: 44rem;
+    max-height: 45rem;
     background: rgba(22, 22, 22, 1);
     border: 5px rgba(161, 154, 139, 1) solid;
     display: flex;
@@ -190,7 +183,8 @@ body{
 
 #websites{
     display: flex;
-    gap: 3rem;
+    max-height: 45rem;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
