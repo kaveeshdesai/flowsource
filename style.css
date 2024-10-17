@@ -181,11 +181,13 @@ body{
     gap: 10rem;
 }
 
-#websites{
+#name{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     max-height: 45rem;
     justify-content: space-between;
-    flex-wrap: wrap;
+    gap: 3.8rem;
 }
 
 .box{
@@ -204,10 +206,4 @@ body{
     border: 5px rgba(161, 154, 139, 1) solid ;
     filter: drop-shadow(4px 4px 2rem rgba(161, 154, 139, 0.2));
     transition: 300ms ease;
-}
-
-#yt_channels{
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
 }
