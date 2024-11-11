@@ -25,7 +25,7 @@ links.forEach(link => {
     });
 
     link.addEventListener("mouseleave", function() {
-        changeCursorAppearance("", "1rem");
+        changeCursorAppearance("rgba(183, 83, 3, 1)", "1rem");
     });
 
 const specialDivs = document.querySelectorAll(".special-div");
