@@ -1,5 +1,14 @@
 html{
     scroll-behavior: smooth;
+    cursor: none;
+}
+
+html a{
+    cursor: none;
+}
+
+html a:hover{
+    cursor: cursor;
 }
 
 .anton-regular {
@@ -30,6 +39,21 @@ html{
     border-radius: 5rem;
     
 }
+
+.cursor{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgba(183, 83, 3, 1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    pointer-events: none;
+    transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+}
+
 
 .grain{
     width: 150%;
@@ -62,11 +86,11 @@ body{
     width: 3rem;
 }
 
-.head_elements{
+.head-elements{
     display: flex;
 }
 
-.head_elements a{
+.head-elements a{
     margin: 1rem;
     font-size: 0.75rem;
     font-family: "Armata";
@@ -139,38 +163,4 @@ body{
 
 .text2{
     color: rgba(188, 83, 3, 1);
-}
-
-#main{
-    display: flex;
-    gap: 5rem;
-    justify-content: center;
-    padding-top: 5rem;
-}
-
-.up_arrow{
-    transform: rotate(180deg);
-}
-
-.navbar{
-    width: 15rem;
-    height: 35rem;
-    background: rgba(22, 22, 22, 1);
-    border: 5px rgba(161, 154, 139, 1) solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    border-radius: 2rem;
-    filter: drop-shadow(4px 4px 2rem #2a2a2a);
-    box-sizing: border-box;
-    flex-shrink: 0;
-}
-
-.nav_element{
-    font-family: 'Anton';
-    font-size: 2rem;
-    color: rgba(161, 154, 139, 1);
-    z-index: 5;
-    text-decoration: none;
 }
