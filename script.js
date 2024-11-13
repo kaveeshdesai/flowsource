@@ -13,7 +13,7 @@ window.addEventListener("mousemove", function(e) {
     cursor.animate({
         left: posX + "px",
         top: posY + "px"
-    }, {duration: 50, fill: "forwards"});
+    }, {duration: 75, fill: "forwards"});
 });
 
 const links = document.querySelectorAll("a");
