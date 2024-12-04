@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+    cursor: none;
+}
+
+html a{
+    cursor: none;
+}
+
+html a:hover{
+    cursor: cursor;
+}
+
+.anton-regular {
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.armata-regular {
+    font-family: "Armata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+::-webkit-scrollbar{
+    width: 0.5rem;
+}
+
+::-webkit-scrollbar-track{
+    background: rgba(42, 42, 42, 1);
+    border-radius: 5rem;
+    margin-block: 1rem;
+
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(188, 83, 3, 1);
+    border-radius: 5rem;
+    
+}
+
+.cursor{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background-color: rgba(183, 83, 3, 1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    pointer-events: none;
+    transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease;
+}
+
+
+.grain{
+    width: 150%;
+    height: 150%;
+    position: fixed;
+    background: url(assets/grain.svg);
+    opacity: 50%;
+    margin-top: -3rem;
+    margin-left: -6rem;
+    overflow: hidden;
+    pointer-events: none;  
+    z-index: 999;
+}
+
+body{
+    background-color: rgba(22, 22, 22, 1);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.logo{
+    border-radius: 0.75rem;
+    width: 3rem;
+}
+
+.head-elements{
+    display: flex;
+}
+
+.head-elements a{
+    margin: 1rem;
+    font-size: 0.75rem;
+    font-family: "Armata";
+    color: rgba(161, 154, 139, 1);
+    text-decoration: none;
+    z-index: 1;
+}
